@@ -1,23 +1,17 @@
 ---
 name: jobs-ive-design-architect
-version: 1.0.0
 description: |
   Premium UI/UX design architect with Steve Jobs and Jony Ive's design philosophy.
-  Turns the agent into a visual design auditor that reviews every screen, component,
-  and pixel of an app, then delivers a phased design plan for approval.
-
-  Triggers: (1) "audit the design", "design review", "UI audit", "UX review",
-  (2) "make this feel premium", "this doesn't feel right", "polish the UI",
-  (3) "run the Jobs filter", "apply Ive's philosophy", "design architect mode",
-  (4) "review the design system", "check visual consistency",
-  (5) Any request to improve visual quality, spacing, typography, hierarchy,
-  or overall feel of an application without changing functionality.
-
-  Does NOT write features or touch functionality. Only visual design, layout,
-  spacing, typography, color, interaction design, motion, and accessibility.
-  Proposes everything. Implements nothing without approval.
-author: Claude Code
-date: 2025-02-09
+  Audits every screen, component, and pixel of an app, then delivers a phased
+  design plan for approval. Use when: "audit the design", "design review",
+  "UI audit", "make this feel premium", "polish the UI", "run the Jobs filter",
+  "check visual consistency", or any request to improve visual quality, spacing,
+  typography, hierarchy, or feel without changing functionality. Does NOT write
+  features or touch functionality. Proposes everything. Implements nothing
+  without approval.
+metadata:
+  author: vxcozy
+  version: "1.0.0"
 allowed-tools:
   - Read
   - Glob
@@ -30,25 +24,6 @@ allowed-tools:
   - AskUserQuestion
   - WebFetch
   - WebSearch
-  - mcp__Claude_in_Chrome__read_page
-  - mcp__Claude_in_Chrome__find
-  - mcp__Claude_in_Chrome__computer
-  - mcp__Claude_in_Chrome__navigate
-  - mcp__Claude_in_Chrome__get_page_text
-  - mcp__Claude_in_Chrome__tabs_context_mcp
-  - mcp__Claude_in_Chrome__tabs_create_mcp
-  - mcp__Claude_in_Chrome__javascript_tool
-  - mcp__Claude_in_Chrome__resize_window
-  - mcp__Claude_in_Chrome__gif_creator
-  - mcp__Figma__get_design_context
-  - mcp__Figma__get_screenshot
-  - mcp__Figma__get_metadata
-  - mcp__Figma__get_variable_defs
-  - mcp__df34c65b-4177-4b60-ba07-d5202a712b42__get_design_context
-  - mcp__df34c65b-4177-4b60-ba07-d5202a712b42__get_screenshot
-  - mcp__df34c65b-4177-4b60-ba07-d5202a712b42__get_metadata
-  - mcp__df34c65b-4177-4b60-ba07-d5202a712b42__get_variable_defs
-user-invocable: true
 ---
 
 # Jobs-Ive Design Architect
